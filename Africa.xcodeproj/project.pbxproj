@@ -51,8 +51,7 @@
 		DD5826D528E3A3D50085849D /* Africa */ = {
 			isa = PBXGroup;
 			children = (
-				DD5826D628E3A3D50085849D /* AfricaApp.swift */,
-				DD5826D828E3A3D50085849D /* ContentView.swift */,
+				DD5826E428E3A66B0085849D /* App */,
 				DD5826DA28E3A3D60085849D /* Assets.xcassets */,
 				DD5826DC28E3A3D60085849D /* Preview Content */,
 			);
@@ -65,6 +64,15 @@
 				DD5826DD28E3A3D60085849D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD5826E428E3A66B0085849D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DD5826D628E3A3D50085849D /* AfricaApp.swift */,
+				DD5826D828E3A3D50085849D /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
