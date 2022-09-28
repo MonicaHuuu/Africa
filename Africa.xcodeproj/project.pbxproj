@@ -25,6 +25,10 @@
 		DD58271F28E3E5AD0085849D /* lioness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD58271E28E3E5AD0085849D /* lioness.mp4 */; };
 		DD58272128E3E5CB0085849D /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD58272028E3E5CB0085849D /* ostrich.mp4 */; };
 		DD58272328E3E5E90085849D /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD58272228E3E5E90085849D /* zebra.mp4 */; };
+		DD58272628E3EA7F0085849D /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58272528E3EA7F0085849D /* VideoListView.swift */; };
+		DD58272828E479180085849D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58272728E479180085849D /* MapView.swift */; };
+		DD58272A28E4795E0085849D /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58272928E4795E0085849D /* GalleryView.swift */; };
+		DD58272C28E4798D0085849D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58272B28E4798D0085849D /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,11 @@
 		DD58271E28E3E5AD0085849D /* lioness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lioness.mp4; sourceTree = "<group>"; };
 		DD58272028E3E5CB0085849D /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
 		DD58272228E3E5E90085849D /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
+		DD58272428E3E9150085849D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD58272528E3EA7F0085849D /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		DD58272728E479180085849D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DD58272928E4795E0085849D /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		DD58272B28E4798D0085849D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,7 @@
 		DD5826D528E3A3D50085849D /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				DD58272428E3E9150085849D /* Info.plist */,
 				DD58270D28E3E19D0085849D /* Videos */,
 				DD5826E528E3B4840085849D /* Data */,
 				DD5826E428E3A66B0085849D /* App */,
@@ -101,6 +111,10 @@
 			children = (
 				DD5826D628E3A3D50085849D /* AfricaApp.swift */,
 				DD5826D828E3A3D50085849D /* ContentView.swift */,
+				DD58272528E3EA7F0085849D /* VideoListView.swift */,
+				DD58272728E479180085849D /* MapView.swift */,
+				DD58272928E4795E0085849D /* GalleryView.swift */,
+				DD58272B28E4798D0085849D /* MainView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -218,7 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD5826D928E3A3D50085849D /* ContentView.swift in Sources */,
+				DD58272C28E4798D0085849D /* MainView.swift in Sources */,
+				DD58272828E479180085849D /* MapView.swift in Sources */,
 				DD5826D728E3A3D50085849D /* AfricaApp.swift in Sources */,
+				DD58272628E3EA7F0085849D /* VideoListView.swift in Sources */,
+				DD58272A28E4795E0085849D /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,11 +368,13 @@
 				DEVELOPMENT_TEAM = X2RUR9L778;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,11 +399,13 @@
 				DEVELOPMENT_TEAM = X2RUR9L778;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
