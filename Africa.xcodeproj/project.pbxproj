@@ -15,6 +15,7 @@
 		DD5826EB28E3B4910085849D /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = DD5826E728E3B4910085849D /* locations.json */; };
 		DD5826EC28E3B4910085849D /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = DD5826E828E3B4910085849D /* covers.json */; };
 		DD5826ED28E3B4910085849D /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = DD5826E928E3B4910085849D /* animals.json */; };
+		DD58270F28E3E1B70085849D /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD58270E28E3E1B70085849D /* rhino.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DD5826E728E3B4910085849D /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		DD5826E828E3B4910085849D /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		DD5826E928E3B4910085849D /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		DD58270E28E3E1B70085849D /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		DD5826D528E3A3D50085849D /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				DD58270D28E3E19D0085849D /* Videos */,
 				DD5826E528E3B4840085849D /* Data */,
 				DD5826E428E3A66B0085849D /* App */,
 				DD5826DA28E3A3D60085849D /* Assets.xcassets */,
@@ -93,6 +96,14 @@
 				DD5826E628E3B4910085849D /* videos.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		DD58270D28E3E19D0085849D /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				DD58270E28E3E1B70085849D /* rhino.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				DD5826DE28E3A3D60085849D /* Preview Assets.xcassets in Resources */,
 				DD5826DB28E3A3D60085849D /* Assets.xcassets in Resources */,
 				DD5826ED28E3B4910085849D /* animals.json in Resources */,
+				DD58270F28E3E1B70085849D /* rhino.mp4 in Resources */,
 				DD5826EB28E3B4910085849D /* locations.json in Resources */,
 				DD5826EA28E3B4910085849D /* videos.json in Resources */,
 			);
