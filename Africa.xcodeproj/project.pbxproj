@@ -41,7 +41,7 @@
 		DD76F8C328E5F33700069649 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76F8C228E5F33700069649 /* InsetMapView.swift */; };
 		DD76F8C528E5FF1A00069649 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76F8C428E5FF1A00069649 /* ExternalWeblinkView.swift */; };
 		DD76F8C728E60AA500069649 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76F8C628E60AA500069649 /* VideoModel.swift */; };
-		DD76F8C928E60B1800069649 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76F8C828E60B1800069649 /* VideoListItem.swift */; };
+		DD76F8C928E60B1800069649 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD76F8C828E60B1800069649 /* VideoListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,7 +81,7 @@
 		DD76F8C228E5F33700069649 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		DD76F8C428E5FF1A00069649 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
 		DD76F8C628E60AA500069649 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
-		DD76F8C828E60B1800069649 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
+		DD76F8C828E60B1800069649 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +187,7 @@
 				DD76F8C028E5716600069649 /* InsetFactView.swift */,
 				DD76F8C228E5F33700069649 /* InsetMapView.swift */,
 				DD76F8C428E5FF1A00069649 /* ExternalWeblinkView.swift */,
-				DD76F8C828E60B1800069649 /* VideoListItem.swift */,
+				DD76F8C828E60B1800069649 /* VideoListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -310,7 +310,7 @@
 				DD76F8C728E60AA500069649 /* VideoModel.swift in Sources */,
 				DD58272A28E4795E0085849D /* GalleryView.swift in Sources */,
 				DD76F8BF28E54E1F00069649 /* InsetGalleryView.swift in Sources */,
-				DD76F8C928E60B1800069649 /* VideoListItem.swift in Sources */,
+				DD76F8C928E60B1800069649 /* VideoListItemView.swift in Sources */,
 				DD58273528E4F42F0085849D /* CodableBundleExtension.swift in Sources */,
 				DD76F8BD28E54CDF00069649 /* HeadingView.swift in Sources */,
 			);
