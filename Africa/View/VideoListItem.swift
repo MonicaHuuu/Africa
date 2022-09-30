@@ -29,6 +29,18 @@ struct VideoListItem: View {
                     .frame(height: 32)
                     .shadow(radius: 4)
             } //: ZSTACK
+            
+            VStack(alignment: .leading, spacing: 10) {
+                Text(video.name)
+                    .font(.title2)
+                    .fontWeight(.heavy)
+                    .foregroundColor(.accentColor)
+                
+                Text(video.headline)
+                    .font(.footnote)
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(2)
+            } //: VSTACK
         } //: HSTACK
     }
 }
