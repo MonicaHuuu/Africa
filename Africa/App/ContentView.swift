@@ -15,22 +15,37 @@ struct ContentView: View {
     
     @State private var isGridViewActive: Bool = false
     
+    let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 2)
+    
     // MARK: - BODY
     
     var body: some View {
         
         NavigationView {
             Group {
-                List {
-                    CoverImageView()
-                        .frame(height: 300)
-                        .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-                    ForEach(animals) { animal in
-                        NavigationLink(destination: AnimalDetailView(animal: animal)) {
-                            AnimalListItemView(animal: animal)
-                        } //: LINK
-                    } //: LOOP
-                } //: LIST
+                if !isGridViewActive {
+                    List {
+                        CoverImageView()
+                            .frame(height: 300)
+                            .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                        ForEach(animals) { animal in
+                            NavigationLink(destination: AnimalDetailView(animal: animal)) {
+                                AnimalListItemView(animal: animal)
+                            } //: LINK
+                        } //: LOOP
+                    } //: LIST
+                } else {
+                    ScrollView(.vertical, showsIndicators: false) {
+                        LazyVGrid(columns: gridLayout, alignment: .center, spacing: 10) {
+                            ForEach(animals) { animal in
+                                NavigationLink(destination: AnimalDetailView(animal: animal)) {
+                                    AnimalGridItemView(animal: animal)
+                                } //: LINK
+                            } //: LOOP
+                        } //: GRID
+                        .padding(10)
+                    } //: SCROLL
+                } //: CONDITION
             } //: GROUP
             
             .navigationBarTitle("Africa", displayMode: .large)
